@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nkrumah Samuel | Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial;
+        color: white;
+      }
+
+      nav {
+        background-color: darkgreen;
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+
+      .logo {
+        font-size: 22px;
+        font-weight: bold;
+        color: yellow;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 25px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      nav a:hover {
+        color: yellow;
+      }
+
+      .hero {
+        background-color: green;
+        padding: 80px 40px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+      }
+
+      .hero-text {
+        flex: 1;
+        min-width: 280px;
+      }
+
+      .hero-text h1 {
+        font-size: 48px;
+        margin-bottom: 15px;
+      }
+
+      .hero-text p {
+        font-size: 20px;
+        color: #ccffcc;
+        margin-bottom: 25px;
+      }
+
+      .hero-text .btn {
+        display: inline-block;
+        padding: 12px 30px;
+        background-color: yellow;
+        color: darkgreen;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      .hero-text .btn:hover {
+        background-color: white;
+      }
+
+      .hero-photo {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: darkgreen;
+        border: 4px solid yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        color: #ccffcc;
+        text-align: center;
+        overflow: hidden;
+      }
+
+      .hero-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .about {
+        background-color: darkgreen;
+        padding: 60px 40px;
+      }
+
+      .about h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid yellow;
+        padding-bottom: 10px;
+      }
+
+      .about p {
+        font-size: 18px;
+        line-height: 1.8;
+        max-width: 700px;
+      }
+
+      .skills {
+        background-color: green;
+        padding: 60px 40px;
+      }
+
+      .skills h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+        border-bottom: 2px solid yellow;
+        padding-bottom: 10px;
+      }
+
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+
+      .skill-card {
+        background-color: darkgreen;
+        border: 2px solid yellow;
+        border-radius: 8px;
+        padding: 20px 25px;
+        min-width: 180px;
+        text-align: center;
+      }
+
+      .skill-card h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: yellow;
+      }
+
+      .skill-card p {
+        font-size: 14px;
+        color: #ccffcc;
+      }
+
+      .projects {
+        background-color: darkgreen;
+        padding: 60px 40px;
+      }
+
+      .projects h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+        border-bottom: 2px solid yellow;
+        padding-bottom: 10px;
+      }
+
+      .cards {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .card {
+        background-color: green;
+        padding: 25px;
+        border-radius: 10px;
+        width: 300px;
+        border-left: 4px solid yellow;
+      }
+
+      .card h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+
+      .card p {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #ccffcc;
+      }
+
+      .contact {
+        background-color: green;
+        padding: 60px 40px;
+        text-align: center;
+      }
+
+      .contact h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid yellow;
+        padding-bottom: 10px;
+        display: inline-block;
+      }
+
+      .contact p {
+        font-size: 18px;
+        margin-top: 10px;
+      }
+
+      .contact a {
+        color: yellow;
+        text-decoration: none;
+      }
+
+      footer {
+        background-color: black;
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        color: #aaa;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav>
+      <div class="logo">Nkrumah Samuel</div>
+      <div class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero" id="hero">
+      <div class="hero-text">
+        <h1>Nkrumah Samuel</h1>
+        <p>Data Analyst | Teacher | MPhil Mathematical Statistics [Student], KNUST</p>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    <div class="hero-photo">
+        <img src="photo..jpeg" alt="Nkrumah Samuel">
+      </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>I am an MPhil Statistics student at KNUST with experience in data analysis and statistical consulting. I have a background in mathematics education and have worked with the Ghana Education Service and Ghana Statistical Service. I am passionate about applying quantitative methods to solve real-world challenges in Ghana.</p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>R Programming</h3>
+          <p>Beginner-level statistical computing as part of MPhil Statistics training at KNUST</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>SQL / MySQL</h3>
+          <p>Database querying, workforce analytics, data extraction</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>LaTeX</h3>
+          <p>Academic typesetting, reports, presentations with Beamer</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Data Consulting</h3>
+          <p>Statistical advice, interpretation, and reporting for clients</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Power BI</h3>
+          <p>Interactive dashboards, data visualisation, business reporting</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Microsoft Excel</h3>
+          <p>Data cleaning, pivot tables, statistical functions, reporting</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="cards">
+
+        <div class="card">
+          <h3>WTI Crude Oil Analysis</h3>
+          <p>Structural break analysis of WTI crude oil prices using R. Includes Chow test, CUSUM, and Bai-Perron estimation.</p>
+        </div>
+
+        <div class="card">
+          <h3>Agricultural Yield Prediction</h3>
+          <p>Applying statistical models to oil palm yield data for smallholder farmers in Ghana.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:nkrumahs240@gmail.com">nkrumahs240@gmail.com</a></p>
+      <p>Phone: +233 540471000</p>
+      <p>Location: Kumasi, Ghana</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Nkrumah Samuel. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
